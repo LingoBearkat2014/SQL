@@ -1,2 +1,3 @@
-# SQL
-SQL Portfolio
+# Matthew Lingo's SQL Portfolio
+
+## Welcome to my SQL Portfolio! This code repository contains examples of SQL I've written. Feel free to take a looke and reach out via email if you have any questions: matthew.lingo14@gmail.com
