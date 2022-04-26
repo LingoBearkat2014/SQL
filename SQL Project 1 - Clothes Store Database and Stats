@@ -1,3 +1,5 @@
+--Purpose of this exercise is to create a basic clothes store database and answer a few questions
+
 CREATE TABLE store (id integer primary key, name text, quantity integer, color text, price integer);
 
 INSERT INTO store VALUES
@@ -17,6 +19,14 @@ INSERT INTO store VALUES
 (14,"underwear",1,"black",12),
 (15,"hats",2,"gray",35);
 
+--Display the database ordered by price.
 Select * FROM store ORDER BY price DESC;
 
-SELECT AVG(price) FROM store
+--What is the avg price of all of the items?
+SELECT AVG(price) FROM store;
+
+--What are the 5 most expensive items?
+SELECT name, price
+FROM store
+ORDER BY price desc
+LIMIT 5;
